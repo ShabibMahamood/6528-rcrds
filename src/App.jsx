@@ -77,9 +77,9 @@ const Releases = () => {
 // Artists Section Component
 const Artists = () => {
   const artists = [
-    { name: 'TRON!X 9', image: 'public/ProfilePic.jpg' },
-    { name: 'SEBU', image: 'public/SEBU.png' },
-    { name: 'The Walkers', image: 'public/Thewalkers.jpg' },
+    { name: 'TRON!X 9', image: '/ProfilePic.jpg' },
+    { name: 'SEBU', image: '/SEBU.png' },
+    { name: 'The Walkers', image: '/Thewalkers.jpg' },
   ];
 
   return (
@@ -106,9 +106,9 @@ const SocialMedia = () => {
       <div className="container">
         <h3>Follow Us</h3>
         <div className="social-icons">
-          <a href="https://open.spotify.com/user/we2sovnlv30j91ajr9k1whj0c?si=9ad9d4cccfae4c67"><img src="public/spotify-100.png"></img><i className="fab fa-spotify"></i></a>
-          <a href="https://www.instagram.com/6528_rcrds/"><img src="public/instagram-logo-128.png"></img><i className="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/6528-rcrds"><img src="public/linkedin-100.png"></img><i className="fab fa-linkedin"></i></a>
+          <a href="https://open.spotify.com/user/we2sovnlv30j91ajr9k1whj0c?si=9ad9d4cccfae4c67"><img src="/spotify-100.png"></img><i className="fab fa-spotify"></i></a>
+          <a href="https://www.instagram.com/6528_rcrds/"><img src="/instagram-logo-128.png"></img><i className="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/6528-rcrds"><img src="/linkedin-100.png"></img><i className="fab fa-linkedin"></i></a>
         </div>
       </div>
     </section>
