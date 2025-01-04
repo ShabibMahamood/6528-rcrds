@@ -44,16 +44,16 @@ const Hero = () => {
 // Releases Section Component
 const Releases = () => {
   const releases = [
-    { title: 'Distortion', artist: 'TRON!X 9', cover: 'public/distortion.jpg' },
-    { title: 'Unity 2.0 [Not On This Label]', artist: 'The Walkers', cover: 'public/Unity20.jpg' },
-    { title: 'PILLAGE', artist: 'TRON!X 9', cover: 'public/PILLAGE downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Headlights', artist: 'SEBU & TRON!X 9', cover: 'public/Headlights downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Infusion', artist: 'SEBU', cover: 'public/Infusion downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Midnight Memories', artist: 'SEBU', cover: 'public/Midnight Memories downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Stay Tonight', artist: 'SEBU', cover: 'public/Stay Tonight downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Evacuation', artist: 'SEBU', cover: 'public/Evacuation downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Voltage', artist: 'SEBU', cover: 'public/Voltage downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Crazy Moves', artist: 'SEBU', cover: 'public/Crazy Moves downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Distortion', artist: 'TRON!X 9', cover: '/distortion.jpg' },
+    { title: 'Unity 2.0 [Not On This Label]', artist: 'The Walkers', cover: '/Unity20.jpg' },
+    { title: 'PILLAGE', artist: 'TRON!X 9', cover: '/PILLAGE downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Headlights', artist: 'SEBU & TRON!X 9', cover: '/Headlights downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Infusion', artist: 'SEBU', cover: '/Infusion downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Midnight Memories', artist: 'SEBU', cover: '/Midnight Memories downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Stay Tonight', artist: 'SEBU', cover: '/Stay Tonight downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Evacuation', artist: 'SEBU', cover: '/Evacuation downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Voltage', artist: 'SEBU', cover: '/Voltage downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Crazy Moves', artist: 'SEBU', cover: '/Crazy Moves downloaded from SpotiSongDownloader.com_.jpg' },
   ];
 
   return (
