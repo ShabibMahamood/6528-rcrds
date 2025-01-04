@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="Picsart_25-01-04_09-39-45-973.png" alt="EDM Records Logo" />
+        <img src="public/Picsart_25-01-04_09-39-45-973.png" alt="EDM Records Logo" />
         <h1>6528 RCRDS</h1>
       </div>
       <ul className="navbar-links">
