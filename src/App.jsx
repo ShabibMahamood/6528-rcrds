@@ -78,7 +78,7 @@ const Releases = () => {
 // Artists Section Component
 const Artists = () => {
   const artists = [
-    { name: 'TRON!X 9', image: 'ProfilePic.jpg' },
+    { name: 'TRON!X 9', image: 'Profile.jpg' },
     { name: 'SEBU', image: 'SEBU.png' },
     { name: 'The Walkers', image: 'Thewalkers.jpg' },
   ];
