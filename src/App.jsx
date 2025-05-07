@@ -44,17 +44,17 @@ const Hero = () => {
 // Releases Section Component
 const Releases = () => {
   const releases = [
-    { title: 'Fade', artist: 'TRON!X 9', cover: 'public/Fade.avif' },
-    { title: 'Distortion', artist: 'TRON!X 9', cover: 'public/Distortion.jpg' },
-    { title: 'Unity 2.0 [Not On This Label]', artist: 'The Walkers', cover: 'public/Unity20.jpg' },
-    { title: 'PILLAGE', artist: 'TRON!X 9', cover: 'public/PILLAGE.jpg' },
-    { title: 'Headlights', artist: 'SEBU & TRON!X 9', cover: 'public/Headlights downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Infusion', artist: 'SEBU', cover: 'public/Infusion downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Midnight Memories', artist: 'SEBU', cover: 'public/Midnight Memories downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Stay Tonight', artist: 'SEBU', cover: 'public/Stay Tonight downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Evacuation', artist: 'SEBU', cover: 'public/Evacuation downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Voltage', artist: 'SEBU', cover: 'public/Voltage downloaded from SpotiSongDownloader.com_.jpg' },
-    { title: 'Crazy Moves', artist: 'SEBU', cover: 'public/Crazy Moves downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Fade', artist: 'TRON!X 9', cover: 'Fade.avif' },
+    { title: 'Distortion', artist: 'TRON!X 9', cover: 'Distortion.jpg' },
+    { title: 'Unity 2.0 [Not On This Label]', artist: 'The Walkers', cover: 'Unity20.jpg' },
+    { title: 'PILLAGE', artist: 'TRON!X 9', cover: 'PILLAGE.jpg' },
+    { title: 'Headlights', artist: 'SEBU & TRON!X 9', cover: 'Headlights downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Infusion', artist: 'SEBU', cover: 'Infusion downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Midnight Memories', artist: 'SEBU', cover: 'Midnight Memories downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Stay Tonight', artist: 'SEBU', cover: 'Stay Tonight downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Evacuation', artist: 'SEBU', cover: 'Evacuation downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Voltage', artist: 'SEBU', cover: 'Voltage downloaded from SpotiSongDownloader.com_.jpg' },
+    { title: 'Crazy Moves', artist: 'SEBU', cover: 'Crazy Moves downloaded from SpotiSongDownloader.com_.jpg' },
   ];
 
   return (
@@ -78,9 +78,9 @@ const Releases = () => {
 // Artists Section Component
 const Artists = () => {
   const artists = [
-    { name: 'TRON!X 9', image: 'public/ProfilePic.jpg' },
-    { name: 'SEBU', image: 'public/SEBU.png' },
-    { name: 'The Walkers', image: 'public/Thewalkers.jpg' },
+    { name: 'TRON!X 9', image: 'ProfilePic.jpg' },
+    { name: 'SEBU', image: 'SEBU.png' },
+    { name: 'The Walkers', image: 'Thewalkers.jpg' },
   ];
 
   return (
@@ -107,9 +107,9 @@ const SocialMedia = () => {
       <div className="container">
         <h3>Follow Us</h3>
         <div className="social-icons">
-          <a href="https://open.spotify.com/user/we2sovnlv30j91ajr9k1whj0c?si=9ad9d4cccfae4c67"><img src="public/spotify-100.png"></img><i className="fab fa-spotify"></i></a>
-          <a href="https://www.instagram.com/6528_rcrds/"><img src="public/instagram-logo-128.png"></img><i className="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/6528-rcrds"><img src="public/linkedin-100.png"></img><i className="fab fa-linkedin"></i></a>
+          <a href="https://open.spotify.com/user/we2sovnlv30j91ajr9k1whj0c?si=9ad9d4cccfae4c67"><img src="spotify-100.png"></img><i className="fab fa-spotify"></i></a>
+          <a href="https://www.instagram.com/6528_rcrds/"><img src="instagram-logo-128.png"></img><i className="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/6528-rcrds"><img src="linkedin-100.png"></img><i className="fab fa-linkedin"></i></a>
         </div>
       </div>
     </section>
