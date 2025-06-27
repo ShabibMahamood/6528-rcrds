@@ -44,6 +44,8 @@ const Hero = () => {
 // Releases Section Component
 const Releases = () => {
   const releases = [
+    { title: 'E30', artist: 'TRON!X 9', cover: 'E30.jpg' },
+    { title: 'Mirage', artist: 'TRON!X 9 , ZAROX', cover: 'Mirage.jpg' },
     { title: 'Fade', artist: 'TRON!X 9', cover: 'Fade.avif' },
     { title: 'Distortion', artist: 'TRON!X 9', cover: 'Distortion.jpg' },
     { title: 'Unity 2.0 [Not On This Label]', artist: 'The Walkers', cover: 'Unity20.jpg' },
