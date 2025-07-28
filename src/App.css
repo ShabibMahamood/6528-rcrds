@@ -1,4 +1,4 @@
-/* Minimal CSS - most styling is now handled by Tailwind classes */
+@import "tailwindcss";/* Minimal CSS - most styling is now handled by Tailwind classes */
 
 html {
   scroll-behavior: smooth;
