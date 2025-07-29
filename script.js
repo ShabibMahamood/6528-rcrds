@@ -238,8 +238,8 @@ function loadReleases() {
             <h3>${release.title}</h3>
             <div class="release-meta">
               <span class="release-date">${formatDate(release.date)}</span>
-              <span class="release-bpm">128 BPM</span>
-              <span class="release-genre">PROGRESSIVE</span>
+              <span class="release-bpm">${release.bpm}</span>
+              <span class="release-genre">${release.genre}</span>
             </div>
             <div class="player">
               <iframe style="border-radius:12px" src="${release.embed}" width="100%" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
