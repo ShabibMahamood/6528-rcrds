@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions | 6528 RCRDS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="particles" id="particles-js"></div>
+  
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-logo">6528 RCRDS</div>
+      <div class="nav-toggle" onclick="toggleNav()">
+        <div class="hamburger"></div>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html"><span data-hover="HOME">HOME</span></a>
+        <a href="index.html#releases"><span data-hover="RELEASES">RELEASES</span></a>
+        <a href="index.html#artists"><span data-hover="ARTISTS">ARTISTS</span></a>
+        <a href="privacy.html"><span data-hover="PRIVACY">PRIVACY</span></a>
+        <a href="terms.html"><span data-hover="TERMS">TERMS</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section legal-section">
+    <div class="section-header">
+      <h2>TERMS & CONDITIONS</h2>
+      <div class="header-line"></div>
+    </div>
+    
+    <div class="legal-content holographic">
+      <p class="last-updated">Last Updated: <span id="update-date"></span></p>
+      
+      <div class="legal-section">
+        <h3>1. Acceptance of Terms</h3>
+        <p>By accessing and using <a href="index.html">6528 RCRDS</a> ("the Site"), you accept and agree to be bound by these Terms & Conditions. If you disagree, please do not use our Site.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>2. Intellectual Property</h3>
+        <p>All content on this Site, including music, artwork, logos, and text, is the property of 6528 RCRDS or its licensors and is protected by copyright and other intellectual property laws.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>3. User Responsibilities</h3>
+        <p>When using our Site, you agree not to:</p>
+        <ul>
+          <li>Use the Site for any unlawful purpose</li>
+          <li>Attempt to gain unauthorized access to our systems</li>
+          <li>Upload or transmit viruses or malicious code</li>
+          <li>Infringe on our intellectual property rights</li>
+          <li>Harass, abuse, or harm others</li>
+        </ul>
+      </div>
+      
+      <div class="legal-section">
+        <h3>4. Demo Submissions</h3>
+        <p>By submitting demos through our Site:</p>
+        <ul>
+          <li>You warrant you own all rights to the submitted material</li>
+          <li>You grant us a non-exclusive license to review your submission</li>
+          <li>We make no guarantee of response or interest</li>
+          <li>We are not responsible for lost or damaged submissions</li>
+        </ul>
+      </div>
+      
+      <div class="legal-section">
+        <h3>5. Third-Party Links</h3>
+        <p>Our Site may contain links to third-party services (Spotify, SoundCloud, etc.). We have no control over and assume no responsibility for their content or practices.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>6. Disclaimer of Warranties</h3>
+        <p>The Site is provided "as is." We make no warranties regarding:</p>
+        <ul>
+          <li>Uninterrupted or error-free operation</li>
+          <li>Accuracy or completeness of content</li>
+          <li>Results from using the Site</li>
+        </ul>
+      </div>
+      
+      <div class="legal-section">
+        <h3>7. Limitation of Liability</h3>
+        <p>6528 RCRDS shall not be liable for any indirect, incidental, or consequential damages arising from your use of the Site.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>8. Indemnification</h3>
+        <p>You agree to defend and indemnify 6528 RCRDS from any claims resulting from your misuse of the Site or violation of these Terms.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>9. Termination</h3>
+        <p>We may terminate or suspend your access to the Site without prior notice for any breach of these Terms.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>10. Governing Law</h3>
+        <p>These Terms shall be governed by the laws of [Your Country/State] without regard to conflict of law principles.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>11. Changes to Terms</h3>
+        <p>We reserve the right to modify these Terms at any time. Continued use after changes constitutes acceptance.</p>
+      </div>
+      
+      <div class="legal-section">
+        <h3>12. Contact Information</h3>
+        <p>For questions about these Terms, contact us at:</p>
+        <address>
+          <strong>6528 RCRDS</strong><br>
+          Attn: Legal Department<br>
+          6528rcrdsbc@gmail.com<br>
+        </address>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">6528 RCRDS</div>
+      <div class="footer-links">
+        <a href="privacy.html">PRIVACY POLICY</a>
+        <a href="terms.html">TERMS</a>
+        <a href="index.html#contact">CONTACT</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 6528 RECORDS. ALL RIGHTS RESERVED.
+      </div>
+    </div>
+  </footer>
+
+  <button class="toggle-darkmode" onclick="toggleDarkMode()">
+    <span class="dark-icon">🌑</span>
+    <span class="light-icon">☀️</span>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Set current date as last updated date
+    document.getElementById('update-date').textContent = new Date().toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  </script>
+</body>
+</html>
