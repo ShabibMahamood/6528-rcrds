@@ -278,8 +278,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-toggle {
   display: none;
-  cursor: pointer;
-  z-index: 1001;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    z-index: 1001;
 }
 
 .hamburger {
@@ -960,5 +962,61 @@ footer {
   .footer-links {
     flex-direction: column;
     gap: 1rem;
+  }
+}
+
+/* Legal Pages Specific Styles */
+
+.legal-section {
+  margin-bottom: 3rem;
+}
+
+.legal-section h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 0.5rem;
+}
+
+.legal-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.legal-content ul {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.legal-content li {
+  margin-bottom: 0.5rem;
+}
+
+.last-updated {
+  text-align: right;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+address {
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .legal-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal-content {
+    padding: 1.5rem;
+  }
+  
+  .legal-section h3 {
+    font-size: 1.3rem;
   }
 }
